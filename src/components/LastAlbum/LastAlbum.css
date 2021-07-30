@@ -1,0 +1,91 @@
+.last-album{
+    height: 1100px;
+    width: 100%
+}
+.last-album-holder{
+    position: relative;
+    width: inherit;
+    height: inherit;
+    overflow: hidden;
+    background-image:url("../../resources/images/lastAlbum.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.last-album-holder>img{
+    width: 100%;
+    transform: scale(1.2);
+}
+.last-album-cover{
+    height: inherit;
+    position: absolute;
+    width: inherit;
+    height: 100%;
+    top: 0;
+    background: rgba(11,11,12,0.43);
+    background:#0b0b0cc2 100%;
+    opacity: 1;
+}
+.last-album-texts{
+    text-align: center;
+    padding: 8% 0 25% 0; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.last-album-texts>p{
+    font-size: 40px;
+    font-family: "dosis";
+    font-weight: 100;
+    color: white;
+    margin: 40px;
+}
+.player{
+    width: 90%;
+    max-width: 1000px;
+
+    height: 400px;
+    background-color: rgb(202, 202, 202);
+    margin-bottom: 50px;
+}
+.btn{
+ margin: 40px auto;
+margin: 40px auto;
+width: 300px;
+height: 60px;
+border-radius: 30px;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: 0.3s;
+border: 2px solid var(--myBlue);
+background-color: rgba(7, 156, 255, 0.123);
+}
+.btn>p{
+    color: white;
+    font-size: 15px;
+    font-family: "Hi";
+    font-weight: 600;
+}
+.btn>i{
+    color: rgba(255, 255, 255, 0);
+    font-size: 1px;
+    font-family: "Hi";
+    font-weight: 600;
+    margin-left: 0px;
+    transition: all 0.3s;
+}
+.btn:hover{
+    background-color: rgb(7, 156, 255);
+}
+.btn:hover>i{
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-family: "Hi";
+    margin-left: 20px;
+}
+@media only screen and (max-width: 720px) {
+    .last-album {
+        height: 800px
+    }
+}

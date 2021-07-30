@@ -1,0 +1,73 @@
+@font-face{
+    font-family:"Hi";
+    src: url("./resources/fonts/textFonts/hi.woff2");
+}
+@font-face{
+    font-family:"thin";
+    src: url("./resources/fonts/textFonts/thin.woff2");
+}
+@font-face{
+    font-family:"bbc";
+    src: url("./resources/fonts/textFonts/bbcThin-normal.woff2");
+    font-weight: normal;
+}
+@font-face{
+    font-family:"bbc";
+    src: url("./resources/fonts/textFonts/bbcThin.woff2");
+    font-weight: lighter;
+}
+@font-face{
+    font-family:"bbc";
+    src: url("./resources/fonts/textFonts/bbcThin-bold.woff2");
+    font-weight: bold;
+}
+@font-face{
+    font-family:"dosis";
+    src: url("./resources/fonts/textFonts/Dosis/Dosis-Light.ttf");
+    font-weight: lighter;
+}
+@font-face{
+    font-family:"dosis";
+    src: url("./resources/fonts/textFonts/Dosis/Dosis-Medium.ttf");
+    font-weight: 500;
+    }
+@font-face{
+    font-family:"dosis";
+    src: url("./resources/fonts/textFonts/Dosis/Dosis-SemiBold.ttf");
+    font-weight: 300;
+}
+@font-face{
+    font-family:"dosis";
+    src: url("./resources/fonts/textFonts/Dosis/Dosis-Regular.ttf");
+    font-weight: 400;
+    }
+@font-face{
+    font-family:"dosis";
+    src: url("./resources/fonts/textFonts/Dosis/Dosis-ExtraBold.ttf");
+    font-weight: bolder;
+}
+@font-face{
+    font-family:"dosis";
+    src: url("./resources/fonts/textFonts/Dosis/Dosis-ExtraLight.ttf");
+    font-weight: 100;
+}
+
+*{
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    --myBlue:rgb(7, 156, 255);
+}
+#root{
+    position: relative;
+}
+.App{
+    position:relative;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}

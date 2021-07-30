@@ -1,0 +1,57 @@
+.Foot{
+    position: relative;
+}
+.Footer{
+    margin-bottom: 200px;
+    background-color: #06060600;
+}
+.Footer-real{
+    position: fixed;
+    bottom: 0;
+    z-index: -1;
+    height: 200px;
+    width: 100%;
+    background-color: #060606;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Footer-holder{
+    height: 100%;
+    padding: 40px 0;
+
+}
+
+.Footer-center{
+    margin: auto;
+}
+.Footer-icons{
+    display: flex;
+    justify-content: center;
+align-items: center;
+}
+.Footer-icons>i{
+    font-size: 20px;
+    padding: 10px;
+    color: #ffffffbf;
+    display: inline-block;
+    border-radius: 30px;
+    border: 2px solid rgba(121, 121, 121, 0.47);
+    margin: 0 10px;
+    cursor: pointer;
+    transition:all 0.2s;
+}
+.footer-copywrite{
+    margin-top: 20px;
+    font-size: 14px;
+    color: rgba(240, 240, 240, 0.58);
+    text-align: center;
+}
+.Footer-icons>i:hover{
+    font-size: 20px;
+    padding: 10px;
+    color: #ffffffbf;
+
+    border: 2px solid rgb(255, 255, 255);
+
+}
